@@ -1,0 +1,11 @@
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.exe
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.deps.json
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.runtimeconfig.json
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.runtimeconfig.dev.json
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.dll
+C:\Github\Baekjoon\Baekjoon\bin\Debug\netcoreapp3.1\Baekjoon.pdb
+C:\Github\Baekjoon\Baekjoon\obj\Debug\netcoreapp3.1\Baekjoon.csprojAssemblyReference.cache
+C:\Github\Baekjoon\Baekjoon\obj\Debug\netcoreapp3.1\Baekjoon.AssemblyInfoInputs.cache
+C:\Github\Baekjoon\Baekjoon\obj\Debug\netcoreapp3.1\Baekjoon.AssemblyInfo.cs
+C:\Github\Baekjoon\Baekjoon\obj\Debug\netcoreapp3.1\Baekjoon.dll
+C:\Github\Baekjoon\Baekjoon\obj\Debug\netcoreapp3.1\Baekjoon.pdb
