@@ -12,7 +12,7 @@ namespace Baekjoon
 
         static int Main(string[] args)
         {
-            solution = new n2941();
+            solution = new n1316();
             solution.Execute(Console.ReadLine());
 
             return 0;
