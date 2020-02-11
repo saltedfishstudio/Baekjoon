@@ -6,6 +6,6 @@ namespace Baekjoon
 {
     interface ISolutionBase
     {
-        public void Execute();
+        public void Execute(string read);
     }
 }

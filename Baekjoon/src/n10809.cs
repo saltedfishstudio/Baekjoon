@@ -6,9 +6,8 @@ namespace Baekjoon.src
 {
     class n10809 : ISolutionBase
     {
-        public void Execute()
+        public void Execute(string s)
         {
-            string s = Console.ReadLine();
             const int a = 97;
             const int z = 122;
 
