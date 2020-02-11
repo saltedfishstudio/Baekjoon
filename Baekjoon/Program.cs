@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 
 namespace Baekjoon
@@ -11,7 +12,7 @@ namespace Baekjoon
 
         static int Main(string[] args)
         {
-            solution = new n1157();
+            solution = new n1152();
             solution.Execute(Console.ReadLine());
 
             return 0;
