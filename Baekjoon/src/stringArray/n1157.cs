@@ -6,6 +6,8 @@ namespace Baekjoon.src
 {
     class n1157 : ISolutionBase
     {
+        public string[] TestCase { get; }
+
         public void Execute(string read)
         {
             int highest = 0;

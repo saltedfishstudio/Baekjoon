@@ -6,6 +6,8 @@ namespace Baekjoon.src
 {
     class n2675 : ISolutionBase
     {
+        public string[] TestCase { get; }
+
         public void Execute(string s)
         {
             int testCase = int.Parse(s);

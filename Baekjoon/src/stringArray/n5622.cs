@@ -7,6 +7,8 @@ namespace Baekjoon.src
 {
     class n5622 : ISolutionBase
     {
+        public string[] TestCase { get; }
+
         public void Execute(string read)
         {
             Console.WriteLine(read.Sum(e => Call(e)));

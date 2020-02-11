@@ -12,8 +12,12 @@ namespace Baekjoon
 
         static int Main(string[] args)
         {
-            solution = new n1712();
-            solution.Execute(Console.ReadLine());
+            solution = new n2839();
+        
+            foreach(string test in solution.TestCase)
+            {
+                solution.Execute(test);
+            }
 
             return 0;
         }

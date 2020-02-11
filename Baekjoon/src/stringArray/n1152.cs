@@ -7,6 +7,8 @@ namespace Baekjoon.src
 {
     class n1152 : ISolutionBase
     {
+        public string[] TestCase { get; }
+
         public void Execute(string read)
         {
             string[] block = read.Split(' ');

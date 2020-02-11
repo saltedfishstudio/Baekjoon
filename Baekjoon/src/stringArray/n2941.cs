@@ -7,6 +7,7 @@ namespace Baekjoon.src
 {
     class n2941 : ISolutionBase
     {
+        public string[] TestCase { get; }
         public void Execute(string read)
         {
             string[] entry = { "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" };

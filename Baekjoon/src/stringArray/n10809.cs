@@ -6,6 +6,8 @@ namespace Baekjoon.src
 {
     class n10809 : ISolutionBase
     {
+        public string[] TestCase { get; }
+
         public void Execute(string s)
         {
             const int a = 97;
