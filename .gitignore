@@ -21,3 +21,4 @@
 *.dll
 *.exe
 *.obj
+*.pdb
