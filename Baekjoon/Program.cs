@@ -12,7 +12,7 @@ namespace Baekjoon
 
         static int Main(string[] args)
         {
-            solution = new n2292();
+            solution = new n2869();
         
             foreach(string test in solution.TestCase)
             {
