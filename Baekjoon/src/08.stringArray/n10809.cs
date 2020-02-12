@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace Baekjoon.src
@@ -19,8 +18,8 @@ namespace Baekjoon.src
             {
                 int index = s.IndexOf(Convert.ToChar(i));
                 sb.Append(index);
-                
-                if(i != z)
+
+                if (i != z)
                 {
                     sb.Append(" ");
                 }

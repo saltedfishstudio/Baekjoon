@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Baekjoon
+﻿namespace Baekjoon
 {
     interface ISolutionBase
     {
@@ -12,6 +8,6 @@ namespace Baekjoon
 
     public struct TestCase
     {
-        
+
     }
 }

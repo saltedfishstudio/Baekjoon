@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-
-namespace Baekjoon
+﻿namespace Baekjoon
 {
     using src;
 
@@ -12,9 +8,9 @@ namespace Baekjoon
 
         static int Main(string[] args)
         {
-            solution = new n2869();
-        
-            foreach(string test in solution.TestCase)
+            solution = new n10250();
+
+            foreach (string test in solution.TestCase)
             {
                 solution.Execute(test);
             }

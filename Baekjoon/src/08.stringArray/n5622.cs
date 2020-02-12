@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Linq;
 
 namespace Baekjoon.src
@@ -18,7 +16,7 @@ namespace Baekjoon.src
         {
             const int defaultDelay = 2;
             int delay;
-            switch(character)
+            switch (character)
             {
                 case 'A':
                 case 'B':

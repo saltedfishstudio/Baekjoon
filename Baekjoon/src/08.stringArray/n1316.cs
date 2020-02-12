@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Baekjoon.src
 {
@@ -15,7 +14,7 @@ namespace Baekjoon.src
 
             int groupWordCount = 0;
 
-            for(int i=0; i < testCase; i++)
+            for (int i = 0; i < testCase; i++)
             {
                 list.Clear();
 
@@ -24,9 +23,9 @@ namespace Baekjoon.src
 
                 bool isGroupWord = true;
 
-                foreach(char c in str)
+                foreach (char c in str)
                 {
-                    if(c == last)
+                    if (c == last)
                     {
                         continue;
                     }

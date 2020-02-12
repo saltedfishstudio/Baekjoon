@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Baekjoon.src
 {
@@ -25,10 +23,10 @@ namespace Baekjoon.src
             int goal = int.Parse(read);
             int start = goal / 5;
 
-            for(int i = start; i >= 0; i--)
+            for (int i = start; i >= 0; i--)
             {
                 int rest = goal - (i * 5);
-                if(rest % 3 == 0)
+                if (rest % 3 == 0)
                 {
                     Console.WriteLine(i + rest / 3);
                     return;

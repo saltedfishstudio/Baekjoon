@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Baekjoon.src
 {
@@ -17,7 +15,7 @@ namespace Baekjoon.src
             int c = int.Parse(block[2]);
 
             int margin = c - b;
-            if(margin <= 0)
+            if (margin <= 0)
             {
                 Console.WriteLine("-1");
                 return;

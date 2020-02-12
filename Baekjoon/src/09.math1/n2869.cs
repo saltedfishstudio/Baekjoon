@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Baekjoon.src
 {
@@ -14,7 +12,7 @@ namespace Baekjoon.src
         public void Execute(string read)
         {
             string[] bl = read.Split(' ');
-            
+
             int a = int.Parse(bl[0]);
             int b = int.Parse(bl[1]);
             int v = int.Parse(bl[2]);
@@ -24,8 +22,8 @@ namespace Baekjoon.src
             {
                 result++;
             }
-            
-            Console.WriteLine(result+1);
+
+            Console.WriteLine(result + 1);
         }
     }
 }
