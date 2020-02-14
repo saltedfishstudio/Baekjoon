@@ -17,7 +17,7 @@ namespace Baekjoon.src
 
             Console.WriteLine($"{height}{width:00.##}");
         }
-
+         
         public string[] TestCase => new string[]
         {
             "6 12 10",
