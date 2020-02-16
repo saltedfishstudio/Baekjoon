@@ -15,3 +15,14 @@ class Solution(object):
 		n = int(x[0])
 		m = int(x[1])
 		print((int(n)) * (int(m)) -1)
+
+	def n2525(self):
+		x = input().split(' ')
+		hour = int(x[0])
+		min = int(x[1])
+		min += int(input())
+		additionalHour = min // 60
+		min = min % 60
+		hour += additionalHour
+		hour %= 24
+		print(f'{hour} {min}')
