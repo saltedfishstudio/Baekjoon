@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baekjoon", "Baekjoon\Baekjoon.csproj", "{77474889-55DA-446F-9AF9-73A43E11377D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baekjoon", "Baekjoon\Baekjoon.csproj", "{77474889-55DA-446F-9AF9-73A43E11377D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py-Baekjoon", "Py-Baekjoon\Py-Baekjoon.pyproj", "{005ADC41-3891-4843-B572-603AEFF56B1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{77474889-55DA-446F-9AF9-73A43E11377D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77474889-55DA-446F-9AF9-73A43E11377D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77474889-55DA-446F-9AF9-73A43E11377D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005ADC41-3891-4843-B572-603AEFF56B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005ADC41-3891-4843-B572-603AEFF56B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
