@@ -16,6 +16,7 @@ class Solution(object):
 		m = int(x[1])
 		print((int(n)) * (int(m)) -1)
 
+
 	def n2525(self):
 		x = input().split(' ')
 		hour = int(x[0])
@@ -26,3 +27,19 @@ class Solution(object):
 		hour += additionalHour
 		hour %= 24
 		print(f'{hour} {min}')
+
+
+	def n2530(self):
+		x = input().split(' ')
+		hour = int(x[0])
+		min = int(x[1])
+		sec = int(x[2])
+		sec += int(input())
+		add_min = sec // 60
+		sec %= 60
+		min += add_min
+		add_hour = min // 60
+		min %= 60
+		hour += add_hour
+		hour %= 24
+		print(f'{hour} {min} {sec}')
