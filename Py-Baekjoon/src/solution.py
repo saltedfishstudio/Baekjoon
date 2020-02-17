@@ -43,3 +43,18 @@ class Solution(object):
 		hour += add_hour
 		hour %= 24
 		print(f'{hour} {min} {sec}')
+
+	def n10250(self):
+		for _ in range(int(input())):
+			h,w,n=map(int, input().split())
+			a=n%h
+			b=n//h+1
+			if a==0: 
+				a = h
+				b = -1
+			print(a*100+b)
+
+	def n2775(self):
+		for _ in range(int(input())):
+			k = int(input())
+			n = int(input())
