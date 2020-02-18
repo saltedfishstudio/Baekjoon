@@ -81,3 +81,18 @@ class Solution(object):
 			a = map[k]
 			b = a[n-1]
 			print(b)
+
+
+	def n1193(self):
+		n = int(input())
+		i = 0
+		while n > 0:
+			n -= i
+			i += 1
+
+		n = i+n-1
+		res = f'{n}/{i-n}'
+		if i % 2 == 0:
+			res = f'{i-n}/{n}'
+
+		print(res)
