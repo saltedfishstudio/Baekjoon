@@ -44,6 +44,7 @@ class Solution(object):
 		hour %= 24
 		print(f'{hour} {min} {sec}')
 
+
 	def n10250(self):
 		for _ in range(int(input())):
 			h,w,n=map(int, input().split())
@@ -54,7 +55,29 @@ class Solution(object):
 				b = -1
 			print(a*100+b)
 
+
 	def n2775(self):
+		map = []
+		cur = []
+		for i in range(1,16):
+			cur.append(i)
+
+		map.append(cur)
+		
+		for i in range(1,16):
+			cur = []
+			for j in range(1,16):
+				a = 0
+				for c in range(1,j):
+					a += map[i-1][c-1]
+
+				if a != 0:
+					cur.append(a)
+			map.append(cur)
+
 		for _ in range(int(input())):
 			k = int(input())
 			n = int(input())
+			a = map[k]
+			b = a[n-1]
+			print(b)
