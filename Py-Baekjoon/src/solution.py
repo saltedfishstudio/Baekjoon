@@ -96,3 +96,7 @@ class Solution(object):
 			res = f'{i-n}/{n}'
 
 		print(res)
+
+
+	def n1011(self):
+		print(0)
